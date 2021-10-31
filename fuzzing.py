@@ -10,7 +10,7 @@ while True:
 	try:
 
 			s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-			s.connect(('Machine IP', 9999))
+			s.connect(("Machine IP", 9999))
 
 			s.send((buffer))
 			s.close()
